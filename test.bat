@@ -1,3 +1,3 @@
-cd C:\Users\owaiskhalid\Desktop\{}\{Simpaisa}
+cd C:\Users\owaiskhalid\Desktop\{}
 mvn test
 pause
