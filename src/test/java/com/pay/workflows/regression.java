@@ -72,7 +72,7 @@ public class regression extends  TestScript{
 
     @Test(priority = 5)
     public void delete_user() {
-        System.out.println(" STEP05: === delete user");
+        System.out.println(" STEP05: === Delete User");
         response = new APIResponses(request.delete_user("ahsan"));
         displayResponses();
         AssertTest.assertValue(response.status_code(), "200", "FAIL: Unexpected response status", "PASS: Expected response status");
